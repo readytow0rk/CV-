@@ -18,7 +18,7 @@
 <body>
     <header>
         <div class="row no-gutters">
-            <a class="col-md-4 logo" href="02-index.html"></a>
+            <a class="col-md-4 logo" href="index.html"></a>
             <div class="col-md-8">
                 <div class="row no-gutters bg-color-name-title">
                     <div class="col heading">
@@ -54,15 +54,12 @@
                 <h5 class="uppercase text-center">Let's work together!</h5>
 
                 <div class="center-form">
-                    <form onsubmit="return sendMail(this);">
-                        <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
-                        <input type="email" name="emailaddress" id="emailaddress" class="form-control" placeholder="Email"
-                            required />
-                        <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control"
-                            placeholder="Project description" required></textarea>
+                    <form onsubmit="return sendMail(this);"> 
                         <div class="form-row text-center">
                             <div class="col">
-                                <button type="submit" class="btn btn-secondary">Send Project Request</button>
+                                <a href="https://mail.google.com/mail/u/0/?ogbl#inbox?compose=CllgCJNvvsQfmtLVNlLNfPHDTLpfqfzNwkZMXQfNKVQRlDfJwbmqrrVqbqkCWvFJjXffgkVzWbV" target="_blank">
+                                <button type="button" class="btn btn-outline-success btn-lg">Send Project Request</button>
+                                </a>
                             </div>
                         </div>
                     </form>
